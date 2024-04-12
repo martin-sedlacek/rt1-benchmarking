@@ -13,7 +13,7 @@
 # limitations under the License.
 """Tests for action_tokenizer."""
 import numpy as np
-from robotics_transformer.tokenizers import action_tokenizer
+from tokenizers import action_tokenizer
 from tensor2robot.utils import tensorspec_utils
 import tensorflow as tf
 from tf_agents.specs import tensor_spec
